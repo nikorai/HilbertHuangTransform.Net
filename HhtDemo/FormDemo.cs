@@ -47,9 +47,9 @@ namespace HhtDemo
             for (int n = 0; n < N; n++)
             {
                 var xValue = n / (N - 1.0) * xMax;
-                var ySource1 = 1.0 * Math.Sin(0.5 * xValue);
-                var ySource2 = 0.5 * Math.Sin(5.0 * xValue);
-                var ySource3 = 0.2 * Math.Sin(50.0 * xValue);
+                var ySource1 = 1.0 * Math.Sin(0.2 * xValue);
+                var ySource2 = 0.5 * Math.Sin(2.0 * xValue);
+                var ySource3 = 0.1 * Math.Sin(20.0 * xValue);
 
                 points.Add(new PointD
                 {

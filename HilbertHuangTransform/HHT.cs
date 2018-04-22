@@ -19,7 +19,10 @@ namespace HilbertHuangTransform
                 var middle = GetMiddle(points);
 
                 if (!middle.Any())
+                {
+                    items.Add(points);
                     break;
+                }
 
                 var imf = Substract(points, middle);
                 items.Add(imf);
